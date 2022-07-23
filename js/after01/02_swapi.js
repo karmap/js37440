@@ -4,7 +4,7 @@ const URL = 'https://swapi.dev/api/people/'
 
 function render( personajes ) {
     personajes.forEach( personaje => {
-        document.write(`<li>${personaje.name}</li>`)
+        document.write(`<li>${personaje.name} - Altura: ${personaje.height}</li>`)
     });
 }
 
